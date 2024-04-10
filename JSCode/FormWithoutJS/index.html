@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>User Details Form</h1>
+
+    <form id="userDetailsForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" required>
+        
+        <button type="button" onclick="displayDetails()">Show Details</button>
+    </form>
+
+    <div id="userDetailsDisplay"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
